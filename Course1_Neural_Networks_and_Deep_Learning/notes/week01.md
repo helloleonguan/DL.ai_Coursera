@@ -22,10 +22,10 @@
 * __Density Connected__: take all ouputs from the previous layer as inputs for this neuron. 
 
 ### 2. Supervised Learning with Neural Network
-Examples: ![](./img/SL_examples.png) 
+Examples: ![](./img/wk01_SL_examples.png) 
 
 * Common Choices of NN: Standard NN (data science), __CNN__ (computer vision), __RNN__ (speech recognition, machine translation), or custom/hybrid NN (auto-driving cars).
-![](./img/NN_examples.png)
+![](./img/wk01_NN_examples.png)
 
 * Structured Data: tabular databases 
 * Unstructured Data: audio, image, text 
@@ -35,11 +35,14 @@ Examples: ![](./img/SL_examples.png)
 2. The ability to train large NN. (a.k.a. computional power) 
 3. New Algorithms
 
-![](./img/NN_vs_data.png)
+![](./img/wk01_NN_vs_data.png)
 
 * With a small amount of data, the order of performances of diff learning algorithms are not well-defined. 
 * Activation function: move from sigmoid to ReLU because sigmoid function have extremely small slope on both ends -> learning to be slow but ReLU has a constant slope on the right half -> gradient constant -> learning more quickly converges. 
 * Iterative Process: Idea -> Code -> Experiement -> Idea ...
 
 ## Weekly Bio: Geoffrey Hinton
-
+* The "Godfather" of DL - a legend. 
+* Backprop algorithms can learn wording connections - semantic meanings. 
+* A.I. perspective Knowledge: how it relates to other concepts. 
+* 
