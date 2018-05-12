@@ -38,5 +38,17 @@ Work with iPython Notebooks.
 
 ### 5. Derivatives with Computation Graph
 * one step of __backward__ propagation on a computation graph yields derivative of final output variable. 
+* example: 
+![](./img/wk02_derivative.png)
 
+### 6. Logistic Regression Gradient Descent 
+* __derivatives__: 
+![](./img/wk02_LR_derivatives.png)
+* on m examples: 
+![](./img/wk02_LR_m_examples.png)
+* try to avoid for loops to optimise efficiency. 
+
+## Python & Vectorization 
+
+### 1. Vectorization 
 
