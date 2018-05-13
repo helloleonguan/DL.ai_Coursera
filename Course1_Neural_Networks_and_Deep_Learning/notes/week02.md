@@ -51,4 +51,44 @@ Work with iPython Notebooks.
 ## Python & Vectorization 
 
 ### 1. Vectorization 
+* Vectorization implementation runs faster when compared to for loops. 
+* Whenever possible, avoid explicit for loops. 
+* e.g. in Python
+	* `np.dot(a,b)`
+	* `np.exp(v)` 
+	* `np.log(v)`
+	* `v ** 2`
+	* and more ...
+
+### 2. Vectorizing Logistic Regression 
+* forward propagation details: 
+![](./img/wk02_vFP.png)
+* single iteration of Logistic Regression (fw+bw): 
+![](./img/wk02_viteration.png)
+* for loop is still required for multiple iterations of the gradient descent algorithm. 
+
+### 3. Broadcasting 
+* e.g. in Python
+	* `A.sum(axis=0)` 
+	* `A / z.reshape(m, n)`
+* Broadcasting examples: 
+![](./img/wk02_broadcasting.png) 
+* [General Principles (doc)](https://docs.scipy.org/doc/numpy-1.13.0/user/basics.broadcasting.html)
+
+### 4. Notes on Python/NumPy vectos
+* prefer to specify the full dimensions (usually 2) of the matrices/vectors. 
+* trick: `assert(a.shape == (6, 2)` to check the dimensions of a matrix
+* convert rank 1 arrays to matrices: `a.shape(6, 2)`
+
+### 5. Quick Tour of Jupyter Notebooks
+* __Submit Assignment__ button is on the top right corner. 
+
+### 6. Explnation on LR cost function
+* __loss function__: 
+![](./img/wk02_exp_loss_function.png)
+* __cost function__: 
+![](./img/wk02_exp_cost_function.png)
+__under the assumption: training examples are i.i.d.__
+
+## Weekly Bio: Pieter Abbeel
 
