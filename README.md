@@ -2,7 +2,9 @@
 
 This is a specialisation repository storing all the notes (along with some screenshots from the lectures) I have taken of the Machine Learning course taught by Andrew Ng on Coursera. 
 
-_Notice that there won't be any code for the programming assignments in this repo because it will be a direct violation of the Honour Code._ 
+#### All coding assignments are in the form of _iPython Notebook_ which are hosted on Coursera Hub.  
+_Notice that there won't be any code for the programming assignments in this repo because it will be a direct violation of the Honour Code._  
+However, common practices, notes and thoughts regarding the assignments will be documented in MarkDown files. 
   
 #### The specialisation contains the following five courses: 
 1. [Neural Networks and Deep Learning]()  
