@@ -45,4 +45,23 @@ Examples: ![](./img/wk01_SL_examples.png)
 * The "Godfather" of DL - a legend. 
 * Backprop algorithms can learn wording connections - semantic meanings. 
 * A.I. perspective Knowledge: how it relates to other concepts. 
-* 
+* [Boltzmann Machine](https://en.wikipedia.org/wiki/Boltzmann_machine) 
+* [Deep Belief Network](https://en.wikipedia.org/wiki/Deep_belief_network)
+* [Variational Bayesian methods](https://en.wikipedia.org/wiki/Variational_Bayesian_methods)
+* ReLU was almost extactly == a whole stack of logistic units. 
+* [Deep Residual Networks](https://blog.waya.ai/deep-residual-learning-9610bb62c355)
+* [Recirculation Algorithm](https://en.wikipedia.org/wiki/GeneRec) 
+* [Spike-timing-dependent plasticity](https://en.wikipedia.org/wiki/Spike-timing-dependent_plasticity): the reverse of Recirculation Algo
+* Capsule: partition the true representation into subsets. Capsule is able to represent an instance of a feature, but only 1. It represents all the different properties of the feature. 
+* Routine by Agreement: given a capsule for a mouth & a capsule for a nose, let them vote for what parameters should be for a face. They are likely to agree. This will allow NN to generalize better. 
+* Unsupervised Learning is going to be crucial. 
+* [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network)
+* If someone want to break into DL, what should they do? 
+	1. read the papers but do not read too much of it. 
+	2. notice something that you think everybody is doing wrong. 
+	3. figure out how to di it right. 
+	4. trust your intuitions. 
+	5. replicate published papers -> discover all the tricks to make it work
+	6. never stop programming 
+	7. find an advisor who has the same beliefs. 
+* new AI viewpoint: __thought__ == a big vector of neural activity (as opposed to a symbolic expression). 

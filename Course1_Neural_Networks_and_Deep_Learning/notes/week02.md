@@ -91,4 +91,16 @@ Work with iPython Notebooks.
 __under the assumption: training examples are i.i.d.__
 
 ## Weekly Bio: Pieter Abbeel
-
+works on Deep Reinforcement Learing (on robots). 
+ 
+* [AlexNet](https://en.wikipedia.org/wiki/AlexNet)
+* [ImageNet](https://en.wikipedia.org/wiki/ImageNet)
+* Challenges: 
+	* perform over a longer horizon 
+	* safety issues 
+	* data collection / exploration
+* Advice on AI career: 
+	1. get sarted
+	2. try things out yourself
+	3. career path: how much mentoring you can get? 
+* DRL: not yet very possible to learn from non-scratch experience. A lot of behavior clonings. 
