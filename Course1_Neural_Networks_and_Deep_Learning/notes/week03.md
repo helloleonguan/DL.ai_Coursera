@@ -25,5 +25,13 @@
 * Forward propagation for the entire NN: 
 ![](./img/wk03_FW_NN_computation.png)
 * Foward propagation multiple examples: 
+![](./img/wk03_full_training_set.png)
+	- A, Z matrices are (nx, m) where nx is the number of units in the next layer and m is the number of tranining examples. 
+	- X is (# features, m)
+* Implementation Details:  
+![](./img/wk03_multi_details1.png)  
+![](./img/wk03_multi_details2.png)  
+	- b^[i] is added to each individual column. 
 
- 
+### 3. Activation Function
+* 
