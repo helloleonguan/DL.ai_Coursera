@@ -34,4 +34,22 @@
 	- b^[i] is added to each individual column. 
 
 ### 3. Activation Function
-* 
+* activation functions: sigmoid(), tanh() - (this is far more better), ReLU(). 
+* If the output is 0 or 1 (binary classification), __sigmoid__ is very natural for the output layer.
+* __tanh__ is better than __sigmoid__.  
+* __ReLU__ is the default option for hidden layer. 
+* Examples: 
+![](./img/wk03_activation_function.png)
+* why do we need non-linear activation functions?
+	* if not, NN will be only computing a linear  function no matter how many hidden layers. 
+	* hidden layers having all linear activation functions is also not useful. 
+
+### 4. Derivatives of Activation Functions
+* For __sigmoid__ fucntion: 
+![](./img/wk03_sigmoid.png) 
+* For __tanh__ function: 
+![](./img/wk03_tanh.png) 
+* For __ReLU__ function:
+![](./img/wk03_ReLU.png) 
+
+### 5. Gradient Descent for Neural Network
