@@ -53,3 +53,19 @@
 ![](./img/wk03_ReLU.png) 
 
 ### 5. Gradient Descent for Neural Network
+* Learning Framework: 
+![](./img/wk03_learning_framework.png) 
+* Implementation details: 
+![](./img/wk03_formula.png)
+_Assuming performing binary classification._
+* Details of the backward propagation
+![](./img/wk03_BW_summary.png)
+
+### 6. Random Initialization 
+* It is okay to initialise parameters to 0. But for neural network, is it important to randomly initialise parameters. 
+* If initialising to all 0s, matrix W will cause nodes on the same layer to be the same in forward propagation and backward propagation, making nodes on the same layer completely symmetric. After iterations, hidden units are computing the same results again & again.
+* It is common to initialise values in W matrix to small random numbers. Because if W is too large, you may end up on 2 ends of the activation function, which means learning would be slow.   
+* However, it is okay to initialise b vector to be all 0s.  
+* Practical Example:
+![](./img/wk03_init.png) 
+ 
