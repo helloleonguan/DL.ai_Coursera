@@ -68,4 +68,12 @@ _Assuming performing binary classification._
 * However, it is okay to initialise b vector to be all 0s.  
 * Practical Example:
 ![](./img/wk03_init.png) 
- 
+
+## Weekly Bio: Ian Goodfellow 
+* [GANs](https://en.wikipedia.org/wiki/Generative_adversarial_network): generate data similar to training set & simulate scientific experiments. 
+* Stablizing GANs is the main priority at the moment. 
+* Maths + Probabilities are important to Deep Learning. 
+* Advice to AI learners: 
+	* PhD is no longer a requirement any more. 
+	* Write good code and put it on Github. 
+* Adversarial examples: add security to ML. 
