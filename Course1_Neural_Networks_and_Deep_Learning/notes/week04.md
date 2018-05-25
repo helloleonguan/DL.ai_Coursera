@@ -16,3 +16,34 @@
 ![](./img/wk04_DNN_notation.png)
 
 ### 2. Forward Propagation in DNN
+* Forward propagation on DNN: 
+![](./img/wk04_FW_notation.png)
+
+### 3. Ensure Matrix Dimensions are right 
+* General Rule for 1 example: 
+![](./img/wk04_dim_1.png)
+* General Rule for multi examples: 
+![](./img/wk04_dim_multi.png)
+
+### 4. Why Deep Network works 
+* early layers learn the low-level, simple featiures and then they are put together in later layers to compose complex features. 
+* __Circuit Theory__: (informally) small L-layer DNN requires shallower NN with _exponentially_ more hidden units to compute. 
+
+### 5. Building Blocks of DNN
+* Forward + Backward functions: 
+![](./img/wk04_FW_BW_func.png)
+* Whole Workflow: 
+![](./img/wk04_workflow.png)
+* Details of FW propagation function:
+![](./img/wk04_FW_details.png)
+* Details of BW propagation function: 
+![](./img/wk04_BW_details.png) 
+* __da^[l]__: is based on the cost function (often it is -y/a+(1-y)/(1-a) ). 
+* __summary__: 
+![](./img/wk04_summary.png)
+
+### 6. Parameters & Hyperparameters
+* what are parameters & hyperparameters: 
+![](./img/wk04_param.png)
+* try out diff values for the hyperparameters and see which ones perform the best in terms of the cost function. 
+
