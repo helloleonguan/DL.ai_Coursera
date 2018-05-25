@@ -39,8 +39,6 @@
 * Details of BW propagation function: 
 ![](./img/wk04_BW_details.png) 
 * __da^[l]__: is based on the cost function (often it is -y/a+(1-y)/(1-a) ). 
-* __summary__: 
-![](./img/wk04_summary.png)
 
 ### 6. Parameters & Hyperparameters
 * what are parameters & hyperparameters: 
