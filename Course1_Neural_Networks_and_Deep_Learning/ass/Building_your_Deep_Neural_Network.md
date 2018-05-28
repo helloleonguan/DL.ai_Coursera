@@ -6,6 +6,10 @@
 * Implement an easy-to-use neural network class. 
 
 ### Notes
+1. Shortcuts for initialization: 
+	* Use `np.random.randn(shape)*0.01` with the correct shape.
+	* Use zero initialization for the biases. Use `np.zeros(shape)`.
+2. 
 
 ### Common Practice
 * Initialize the parameters for a two-layer network and for an  LL -layer neural network.
