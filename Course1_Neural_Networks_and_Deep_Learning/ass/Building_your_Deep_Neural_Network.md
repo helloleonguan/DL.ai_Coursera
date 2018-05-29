@@ -9,7 +9,7 @@
 1. Shortcuts for initialization: 
 	* Use `np.random.randn(shape)*0.01` with the correct shape.
 	* Use zero initialization for the biases. Use `np.zeros(shape)`.
-2. 
+2. `dAL = - (np.divide(Y, AL) - np.divide(1 - Y, 1 - AL))` is the derivative of cost with respect to AL through calculus. 
 
 ### Common Practice
 * Initialize the parameters for a two-layer network and for an  LL -layer neural network.
