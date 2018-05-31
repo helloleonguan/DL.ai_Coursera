@@ -7,7 +7,7 @@ _Notice that there won't be any code for the programming assignments in this rep
 However, common practices, notes and thoughts regarding the assignments will be documented in MarkDown files. 
   
 #### The specialisation contains the following five courses: 
-1. Neural Networks and Deep Learning - [Course 1 certificate]() 
+1. Neural Networks and Deep Learning - [Course 1 certificate](https://github.com/helloleonguan/DL.ai_Coursera/blob/master/Course1_Neural_Networks_and_Deep_Learning/Course_1_certificate.pdf) 
 2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization - [Course 2 certificate (not completed)]() 
 3. Structuring Machine Learning Projects - [Course 3 certificate (not completed)]() 
 4. Convolutional Neural Networks - [Course 4 certificate (not completed)]() 
