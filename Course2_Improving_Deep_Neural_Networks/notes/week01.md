@@ -37,7 +37,8 @@ _based on the assumption that optimal error is nearly to 0%_
 ![](./img/wk01_recipe.png)
 
 ### 4. Regularization
-* normally we omit 'b' value and only regularize 'w'. 
+* normally we omit 'b' value and only regularize 'w'.
+* __weight decay__: A regularization technique (such as L2 regularization) that results in gradient descent shrinking the weights on every iteration. 
 * __L2 regularization__:
 	* for logistic regression: + lambda/(2m)*||w||^2
 	* for neural network: + lambda/(2m) * sum(||w^[l]||^2 for all l) - "Frobenius norm"               
@@ -84,4 +85,35 @@ _Note: the last step is to not reduce the expected value of 'A' matrix._
 		* Ensure the model doesn't overfit
 	* It's better to perform those tasks in order.
 
- 
+### 9. Normalizing Inputs
+* __how__: subtract the mean and then divided by variance. 
+* use the same mean/variance to normalise your testing set. 
+* __why__: speed up the gradient descent.
+![](./img/wk01_normalization.png)
+
+### 10. Vanishing / Exploding Gradients 
+* if we have a deep neural network the value of y will explode (if parameters > 1). Conversely, if parameters < 1, value of y will be extremely small.  
+__Example:__
+![](./img/wk01_vanish_explode.png)
+* This will make training difficult. 
+* __Solution__: random weight initialization * a number that diminish the weights. 
+	1. for ReLU: `W[l] *= np.sqrt(2/n[l-1])`
+	2. for tanh: `W[l] *= np.sqrt(1/n[l-1])` (Xavier initialization)
+	3. another option: `W[l] *= np.sqrt(1/(n[l-1]+n[l]))` 
+
+### 11. Gradient Checking 
+* the better (more accurate) way of approximating gradient: 
+![](./img/wk01_approx_gradient.png) 
+* __implementation details__: 
+	* reshape & concatenate into big vector
+	![](./img/wk01_reshape.png)
+	* compute approx & euclidean distance
+	![](./img/wk01_compute_approx.png)
+	* only use gradient checking when debugging your code. 
+	* if algorithm fails grad checking, look at individual components (which layer / db or dW) to try to identify bug. 
+	* remember to add your regularization terms. 
+	* gradient checking does not work with dropout. __Turn off dropout first to ensure gradients are correct, then use dropout to training.__ 
+	* very rarely, the back prop might work when W, b closer to 0 but inaccurate when W, b are away from 0. _solution_: run grad checking at random init and then run the training for a while. Later, run the grad checking again to see if the back prop is correct. 
+
+	
+## Weekly Bio: 
