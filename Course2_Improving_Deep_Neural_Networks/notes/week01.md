@@ -116,4 +116,21 @@ __Example:__
 	* very rarely, the back prop might work when W, b closer to 0 but inaccurate when W, b are away from 0. _solution_: run grad checking at random init and then run the training for a while. Later, run the grad checking again to see if the back prop is correct. 
 
 	
-## Weekly Bio: 
+## Weekly Bio: Yoshua Bengio
+* ReLU is working a lot better than sidmoid & tanh activation functions. 
+* Using Neural Nets to tackle the curse of dimensionality.
+* [Word Embedding](https://en.wikipedia.org/wiki/Word_embedding)
+* [Vanishing gradient](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)
+* Supervised Learning is the industrial centre.
+* Unsupervised Learning ==  understanding concepts by interaction and observation. 
+* Unsupervised Learning is trying to learn a good representation. But defining "a good representation" is difficult, which leads to a range of challenges. 
+* Research opportunity: a bot to understand the world (could be a virtual world e.g. a video game) by learning from observations & interactions in an autonomous way.  
+* Doing research: what questions should we ask that allows us to better understand the phenomenon interested and the algorithms. 
+* __Advice on getting into AI/DL__:
+	* practice (programming) is the key. 
+	* implement things yourself & understand what's going on. 
+	* try to derive things from first principles. 
+	* reading papers and other people's code. 
+	* Do not be afraid of the maths. 
+* Book: [Deep Learning by Yoshua Bengio](http://www.deeplearningbook.org/)
+
