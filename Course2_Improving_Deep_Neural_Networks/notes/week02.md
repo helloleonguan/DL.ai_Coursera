@@ -35,4 +35,23 @@
 ![](./img/wk02_expo_avg_bias_correction.png)
 * In ML, most of the time, people do not bother to implement bias correction. Just wait until it wears off. 
 
-### 3. 
+### 3. Gradient Descent Momentum
+* implementation details: 
+![](./img/wk02_momentum_algo.png) 
+* this will almost guaranteed to work better than the basic gradient descent.  (speed up)
+
+### 4. RMSprop
+* intuition: speed up on the sparse dimension & slow down on the dense dimension. 
+* implemetation details:
+![](./img/wk02_rmsprop.png)
+* epsilon is there to ensure not dividing by 0. 
+
+### 5. Adam Optimization Algorithm 
+* taking the ideas of momentum & RMSprop & bias correction. 
+* implemetation details:
+![](./img/wk02_adam.png) 
+* hyperparameters choices: 
+![](./img/wk02_adam_hyperparameters.png) 
+
+### 6. Learning Rate Decay 
+ 
