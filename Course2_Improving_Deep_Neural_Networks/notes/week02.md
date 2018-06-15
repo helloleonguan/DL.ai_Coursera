@@ -26,12 +26,14 @@
 ![](./img/wk02_expo_avg2.png)
 ![](./img/wk02_expo_avg.png) 
 	* if the window is too large, the curve is smoother but shifted further to the right. 
+	* Increasing β will shift the red line slightly to the right. (green curve)
+	* Decreasing β will create more oscillation within the red line.
 * insight
 ![](./img/wk02_expo_avg_insight.png) 
 * this is a very memory-efficient way of computing moving weighted averages. 
 * implemetation details
 ![](./img/wk02_expo_avg_imple.png) 
-* bias correction: change the initial behavior of the computation when there is no previous data starting from the first few examples.  
+* __bias correction__: change the initial behavior of the computation when there is no previous data starting from the first few examples.  
 ![](./img/wk02_expo_avg_bias_correction.png)
 * In ML, most of the time, people do not bother to implement bias correction. Just wait until it wears off. 
 
@@ -54,4 +56,27 @@
 ![](./img/wk02_adam_hyperparameters.png) 
 
 ### 6. Learning Rate Decay 
- 
+* intuition: slowly reduce your learning rate. If not reduced, mini-batch gradient descent will wadering around the minimum. 
+![](./img/wk02_learning_rate_decay.png) 
+* __epoch__: a pass through the entire training set. 
+* learning rate decay examples: 
+	* `alpha = alpha0 / (1 + decay_rate * epoch_num)`
+	* exponentially decay: `alpha = alpha0 * beta^epoch_num where beta < 1`
+	* `alpha = alpha0 * k/sqrt(epoch_num)`
+	* `alpha = alpha0 * k/sqrt(t) where t is the iteration number of mini-batch gradient descent`
+	* discrete staircase decay:
+	![](./img/wk02_staircase_decay.png) 
+	* or manual decay
+
+### 7. Local Optima ?  
+* In high dimensional spaces, it is more likely to find saddle points (derivative == 0 also) on the right than an actual global minimum. 
+![](./img/wk02_saddle_points.png)
+* problem of plateaus: nearly flat regions -> slows down the learning 
+![](./img/wk02_plateaus.png)
+
+## Weekly Bio: Yuanqing Lin
+* 1st ever winner of ImageNet Challenge (computer vision).
+* Advice for entering AI/ML: 
+	* open-source resource/framework
+	* learn the basics
+	
