@@ -1,4 +1,4 @@
-# Hyperparameter tuning, Batch Normalization and Programming Frameworks
+# Hyperparameter Tuning, Batch Normalization and Programming Frameworks
 
 ## Learning Objectives 
 * Master the process of hyperparameter tuning. 
@@ -33,4 +33,15 @@
 * Training many models in parallel if you have many computational power.   
 ![](./img/wk03_tuning_in_practice.png) 
 
-### 3. 
+### 7. Deep Learning Frameworks 
+![](./img/wk03_frameworks.png) 
+
+### 8. TensorFlow
+* a simple optimization example: 
+	* to optimise: J(w) = w^2 - 10w + 25
+	![](./img/wk03_tf_example.png) 
+	* _for cost_: you can use normal math formula. 
+	* more specific example: 
+	![](./img/wk03_tf_example2.png)	 
+	* 2 ways of constructing common session scheme:
+	![](./img/wk03_tf_session.png)  
