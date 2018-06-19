@@ -33,6 +33,17 @@
 * Training many models in parallel if you have many computational power.   
 ![](./img/wk03_tuning_in_practice.png) 
 
+### 6. Softmax Regression
+* multi-class classification 
+* softmax example: 
+![](./img/wk03_softmax_example.png) 
+* __softmax layer L__
+![](./img/wk03_softmax_layer.png) 
+* __hard max__: produce a vector that only contains a 1 and all 0s for others. 
+* __loss & cost function__
+![](./img/wk03_softmax_loss.png) 
+* Gradient Descent: back prop for this softmax is `Y_hat - Y`. 
+
 ### 7. Deep Learning Frameworks 
 ![](./img/wk03_frameworks.png) 
 
