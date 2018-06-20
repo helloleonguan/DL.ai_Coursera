@@ -33,6 +33,31 @@
 * Training many models in parallel if you have many computational power.   
 ![](./img/wk03_tuning_in_practice.png) 
 
+### 3. Normalizing Activations
+* normalizing inputs to speed up learning 
+![](./img/wk03_normalizing_inputs.png)
+* normalizing the Z matrices can also speed up learning in the intermediate layers
+![](./img/wk03_normalizing_activations.png)
+* __Batch Norm__: for a layer l
+![](./img/wk03_batch_norm.png) 
+* __Batch Norm in NN__: 
+![](./img/wk03_NN_batch_norm.png) 
+* __Batch Norm with mini-batches__: 
+![](./img/wk03_mini_batches_batch_norm.png) 
+* __Batch Norm with Gradient Descent__:
+![](./img/wk03_batch_norm_GD.png) 
+
+### 4. Why does Batch Norm work? 
+* [covariate shift](https://www.quora.com/What-is-Covariate-shift)
+* batch norm reduces the variance of layer activation distribution (i.e. covariate shift) 
+![](./img/wk03_batch_norm_stable.png) 
+* Batch Norm as Regularization 
+![](./img/wk03_batch_norm_regu.png)
+
+### 5. Batch Norm at test time 
+* use exponentially weighted average to estimate the overall mean & variance
+![](./img/wk03_batch_norm_tesing.png)  
+
 ### 6. Softmax Regression
 * multi-class classification 
 * softmax example: 
