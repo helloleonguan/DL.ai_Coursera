@@ -42,3 +42,32 @@ _Depending on the size of the data._
 ![](./img/wk01_metric_change.png)
 ![](./img/wk01_ortho_metric_change.png)
 * If doing well on your metric + dev/test set does not correspond to doing well on your application, change your metric and/or dev & test set. _Example:_ high resolution cat images while training but users upload blurry, distorted cat images. 
+
+### 6. Human-level performance 
+* ML system performance when comparing to human-level performance
+![](./img/wk01_human_level.png)
+![](./img/wk01_human_level2.png)
+* Often, we use human-level error as a proxy for Bayes Error. 
+* how to choose human-level error: 
+![](./img/wk01_human_level_error_eg.png) 
+![](./img/wk01_human_level_error_eg2.png) 
+_Use 0.5% - the best available human-level error when training error & dev error are small & close._
+
+### 7. Avoidable bias
+* [Bayes Error](https://en.wikipedia.org/wiki/Bayes_error_rate): lowest possible error rate for any classifier of a random outcome (into, for example, one of two categories) and is analogous to the irreducible error. 
+* Avoidable Bias: 
+![](./img/wk01_avoidable_bias.png) 
+
+### 8. Surpassing human-level performance
+![](./img/wk01_surpassing_human.png)
+![](./img/wk01_surpassing_examples.png)
+
+### 9. Improving your model performance
+* 2 fundamantal assumptions of supervised learning
+![](./img/wk01_2_assumptions.png)
+* reducing bias & variance
+![](./img/wk01_bias_variance.png) 
+
+
+## Weekly Bio - Andrej Karpathy
+
