@@ -70,4 +70,11 @@ _Use 0.5% - the best available human-level error when training error & dev error
 
 
 ## Weekly Bio - Andrej Karpathy
-
+* ImageNet: human benchmark. 
+* General Feature extrator generating from large training datasets. 
+* [Transfer Learning](https://en.wikipedia.org/wiki/Transfer_learning) 
+* Unsupervised Learning is still not very obvious in terms of its applications. 
+* Single neural network that's completely dynamical with a full agent. _Question: how to formalise the objectives so that we can get intelligent behaviours out._ 
+* [Short Story on AI: A Cognitive Discontinuity](http://karpathy.github.io/2015/11/14/ai/)
+* Advice on entering AI: 
+	* full understanding of the lower-level implementations. 
