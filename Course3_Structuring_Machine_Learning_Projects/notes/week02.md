@@ -18,4 +18,10 @@ _if it's systematic errors, then it will be an issue for the DL algorithm. e.g. 
 * build your first system quickly, then iterate
 ![](./img/wk02_iterate.png)
 
+### 2. Mismatched training and dev/test set
+* Training and Testing on Different Distributions
+![](./img/wk02_distribution.png)
+![](./img/wk02_distribution2.png)
+* Bias and Variance with mismatched data distributions
+
 
