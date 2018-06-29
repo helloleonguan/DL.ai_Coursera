@@ -23,5 +23,15 @@ _if it's systematic errors, then it will be an issue for the DL algorithm. e.g. 
 ![](./img/wk02_distribution.png)
 ![](./img/wk02_distribution2.png)
 * Bias and Variance with mismatched data distributions
+	* _issues: training data & dev + test data come from different distributions._
+	* if the distributions of training data & dev data are different, it's no longer valid to draw conclusions about bias and variance. 
+	![](./img/wk02_data_mismatch.png)
+	![](./img/wk02_data_mismatch2.png)
+	![](./img/wk02_data_mismatch3.png)
+* addressing data mismatch - general guideline
+![](./img/wk02_addr_data_mismatch.png)
+* artificial data synthesis
+![](./img/wk02_data_synthesis.png) 
 
+	
 
