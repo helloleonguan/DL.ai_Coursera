@@ -33,5 +33,37 @@ _if it's systematic errors, then it will be an issue for the DL algorithm. e.g. 
 * artificial data synthesis
 ![](./img/wk02_data_synthesis.png) 
 
-	
+### 3. Trabsfer Learning 
+* initialize the weights for the last layer & re-train (_either re-train the last layer if you have a small dataset or the entire NN if you have a large dataset_) the NN on the new dataset. 
+![](./img/wk02_transfer_learning.png)  
+__Pre-training -> Fine Tuning__  
 
+* Transfer Learning is commonly used from pre-training a large dataset and then move onto a smaller fina tuning dataset. It would not make sense / be meaningful if it's other way around. 
+* When makes sense: 
+![](./img/wk02_transfer_learning_useful.png)
+
+### 4. Multi-task Learning 
+* Simple auto-driving vehicle 
+![](./img/wk02_multi_task_example.png)  
+* __Good__:Performance is better than training each of the individual NNs. Even if some examples only have partial labels, it still can be trained (only consider label attributes in the loss function).  
+![](./img/wk02_multi_task_imple.png)  
+_one example can have multiple labels - [0 1 1 0 1].T_
+* When makes sense: 
+![](./img/wk02_multi_task_useful.png)
+* Much less often used. Mostly used in computer vision - object detection. 
+
+### 5. End-to-End Deep Learning
+* replace multi-stage systems by a single NN.
+* end-to-end approach requires a large amount of data to work well. 
+![](./img/wk02_end_to_end_example.png)  
+![](./img/wk02_end_to_end_example1.png)  
+* end to end approach might not work well in the following example:  
+![](./img/wk02_end_to_end_example2.png)
+* pros & cons:  
+![](./img/wk02_end_to_end_pros_cons.png)
+* Applying end-to-end approach
+![](./img/wk02_end_to_end_applying.png)
+_the second example won't work well with end-to-end deep learning due to its complexity._
+
+
+## Weekly Bio: 
