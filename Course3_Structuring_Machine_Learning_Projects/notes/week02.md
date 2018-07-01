@@ -66,4 +66,16 @@ _one example can have multiple labels - [0 1 1 0 1].T_
 _the second example won't work well with end-to-end deep learning due to its complexity._
 
 
-## Weekly Bio: 
+## Weekly Bio: Ruslan Salakhutdinov
+* Director of Research in Apple
+* [Restricted Boltzmann machine](https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine)
+* Unsupervised vs. Supervised: unsupervised pre-training models can help supervised learning. 
+* Generative models: we haven't quite figure it out.
+* How to utilise GPU? 
+* Advice on entering DL: 
+	* try different & new things; don't be afraid. 
+	* code the low-level implementations
+* Ph.D vs. Industry:	
+	* in academia: you have more freedom;
+	* in industry: affect more people; more resources; 
+* Exciting frontier: __Deep Reinforcement learning, Reasoning NL understanding, Transfer Learning (on new tasks with small datatset).__
