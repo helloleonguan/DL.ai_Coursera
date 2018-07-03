@@ -25,7 +25,24 @@
 ![](./img/wk01_filters1.png)  
 
 ### 3. Padding 
+* issues with previous computation: 
+	* pixels at the corners & edges are less frequently used than the ones in the middle. 
+	* images shrink as more filters applied. 
+* so we introduce the concept of padding around the original image.  
+![](./img/wk01_padding.png) 
+* valid & same convolutions 
+![](./img/wk01_padding2.png) 
 
+### 4. Strided Convolutions
+* stride == number of steps when the filter moves horizontally and vertically.  
+![](./img/wk01_stride.png) 
+* by convention, if the filter is outside the image+padding, then do not perform any convolution operation on that. 
+![](./img/wk01_stride2.png)
+* note: the convolution operation is actually croass-correlation technically but we just simply call it convolution in ML literature. 
 
-  
-
+### 5. Convolution Over Volumes 
+* the number of channels must match.  
+![](./img/wk01_volume.png) 
+![](./img/wk01_volume2.png)  
+* multiple filters 
+![](./img/wk01_volume3.png)
