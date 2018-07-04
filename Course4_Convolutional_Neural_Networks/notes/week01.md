@@ -46,3 +46,16 @@
 ![](./img/wk01_volume2.png)  
 * multiple filters 
 ![](./img/wk01_volume3.png)
+
+### 6. Convolutional Network 
+* an example of a layer
+![](./img/wk01_a_layer.png) 
+* summary of notation
+![](./img/wk01_cnn_notation.png) 
+* a deeper ConvNet
+![](./img/wk01_conv_net.png) 
+* different types of layer in convolutional network:
+	* convolution
+	* pooling
+	* fully connected 
+
