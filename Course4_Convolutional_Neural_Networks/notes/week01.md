@@ -59,3 +59,35 @@
 	* pooling
 	* fully connected 
 
+### 7. Pooling Layers
+* max pooling (it's a fixed computation, no parameter to learn)
+![](./img/wk01_max_pooling.png)  
+![](./img/wk01_max_pooling2.png)  
+* average pooling 
+![](./img/wk01_avg_pooling.png)  
+* pooling applies to each of the channel individually. 
+* max pooling is more common than average pooling in practice. 
+* hyperparameters of pooling
+![](./img/wk01_pooling_hyperparam.png)  
+
+### 8. A CNN Example 
+* usually, we only  count the layers with parameters to learn to be the total number of layers in a CNN. 
+* __Fully Connected Layer__: it's just similar to a regular layer you would see in neural network with weights & bias to learn. 
+* example: similar to [LeNet-5](http://yann.lecun.com/exdb/lenet/)  
+![](./img/wk01_lenet5_eg.png)  
+![](./img/wk01_lenet5_eg2.png)  
+* __When calculating the number of parameters for a Conv layer with 1 filter, it should be fw[l] * fh[l] * nc[l-1] + 1. While, for multiple filters, it would then be (fw[l] * fh[l] * nc[l-1] + 1) * nc[l].__   
+* _Notice that the number of parameters in this table are mostly are incorrect. The last 3 should be:_  
+`FC3: 120 * 400 (W matrix) + 120 (bias) = 48,120`
+`FC4: 84 * 120 (W matrix) + 84 (bias) = 10,164` 
+`Softmax: 10 * 84 (W matrix) + 10 (bias) = 850`
+
+### 9. Why to use convolution
+* ConvNet generally have way fewer parameters to learn. 
+* __advantages of ConvNet:__
+	* parameter sharing  
+	* sparsity of connections  
+![](./img/wk01_adv_cnn.png)  
+* It's common to use other researchers' well-tested architecture to the problem you have at hand. 
+
+## Weekly Bio:  
