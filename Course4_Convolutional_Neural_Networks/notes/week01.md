@@ -90,4 +90,11 @@
 ![](./img/wk01_adv_cnn.png)  
 * It's common to use other researchers' well-tested architecture to the problem you have at hand. 
 
-## Weekly Bio:  
+## Weekly Bio: Yann LeCun
+* [OPTIMAL PERCEPTUAL INFERENCE](https://papers.cnl.salk.edu/PDFs/Optimal%20Perceptual%20Inference%201983-646.pdf)
+* [Conditional random field](https://en.wikipedia.org/wiki/Conditional_random_field) 
+* [DjVu](https://en.wikipedia.org/wiki/DjVu)
+* Advice for entering AI: 
+	* learn from the Internet 
+	* make yourself valuable
+	* contribute to the open source community 
