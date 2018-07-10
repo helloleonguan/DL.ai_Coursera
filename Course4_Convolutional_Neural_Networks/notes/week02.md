@@ -30,3 +30,22 @@ Build a deep neural network using Keras.
 	![](./img/wk02_resnet4.png)   
 	
 ### 3. Inception Neural Network 
+* __1 x 1 convolution:__  
+![](./img/wk02_1x1.png)  
+![](./img/wk02_1x1_2.png)  
+* __Inception Layer:__ perform all the operations you want altogether, though computational cost is high. 
+![](./img/wk02_inception.png)  
+* computational cost
+![](./img/wk02_inception_comp_cost.png)  
+* use a 1x1 convolution to reduce the computational cost 
+![](./img/wk02_1x1_3.png)  
+_It won't hurt the performance of the neural network._
+* __inception network__
+![](./img/wk02_inception2.png)  
+![](./img/wk02_inception3.png)  
+_Notice that there are some side-branches. Those are used for making early predictions in hidden layers._ 
+
+### 4. Practical Advice on ConvNets
+* using open-source implementation: 
+	* look for online open-source implementation of a particular research paper. 
+	* mostly on Github 
