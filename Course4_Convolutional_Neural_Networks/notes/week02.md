@@ -48,4 +48,5 @@ _Notice that there are some side-branches. Those are used for making early predi
 ### 4. Practical Advice on ConvNets
 * using open-source implementation: 
 	* look for online open-source implementation of a particular research paper. 
-	* mostly on Github 
+	* mostly on Github.  
+	* you could also download pre-trained parameter values for transfer learning.  
