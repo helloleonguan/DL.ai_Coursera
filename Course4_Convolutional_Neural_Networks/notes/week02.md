@@ -49,4 +49,34 @@ _Notice that there are some side-branches. Those are used for making early predi
 * using open-source implementation: 
 	* look for online open-source implementation of a particular research paper. 
 	* mostly on Github.  
-	* you could also download pre-trained parameter values for transfer learning.  
+* you could also download pre-trained parameter values for transfer learning (usually as intialization values).
+* For a small dataset: 
+![](./img/wk02_transfer_learning.png)  
+_Note: a) freeze: do not train early parameters and only train the last few layers. b) save to disk: compute the previous layers result Z-n and save it to disk for re-use of multiple epochs._  
+* For a large dataset (train more layer at the end):  
+![](./img/wk02_transfer_learning2.png)  
+* For an even larger dataset (use the parameters online as initialization): 
+![](./img/wk02_transfer_learning3.png)  
+* Data Augmentation (most CV projects need a lot of data): 
+	* Mirroring 
+	* Random Cropping 
+	* Rotation 
+	* Shearing 
+	* Local warping   
+	![](./img/wk02_data_augmentation.png) 
+	* color shifting  
+	![](./img/wk02_data_augmentation2.png)  
+* run distortions in parallel with training. 
+![](./img/wk02_data_augmentation3.png)  
+
+### 5. State of Computer Vision 
+* hand-engineering   
+![](./img/wk02_cv_state.png)  
+* benchmarks & competitions  
+![](./img/wk02_cv_state2.png)   
+* open-source code 
+![](./img/wk02_cv_state3.png)  
+
+
+
+ 
