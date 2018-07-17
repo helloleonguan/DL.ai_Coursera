@@ -22,5 +22,18 @@ _Note that the loss function is defined on the left._
 ![](./img/wk03_landmarks.png)  
 _Note: specifying key points in the image and make them the Y label. Though landmarks have to be consistent across multiple images._
 
-### 3. 
+### 3. Object Detection 
+* train a ConvNet for closely cropped images. 
+![](./img/wk03_cropped_convnet.png) 
+* sliding windows detection  
+![](./img/wk03_sliding_windows.png)  
+_the computational cost is high due to the number of windows when stride is small & different sizes._
+* turning FC layer into convolutional layers
+![](./img/wk03_fc_to_conv.png)  
+* convolutional implementation of sliding windows  
+![](./img/wk03_conv_sliding_windows.png)  
+_It is because of the 2x2 max pooling layer so that it is equivelant to have a stride of 2 for the sliding windows._  
+![](./img/wk03_conv_sliding_windows2.png)  
+* bounding box predictions 
+
 
