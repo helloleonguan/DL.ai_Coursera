@@ -34,6 +34,11 @@ _the computational cost is high due to the number of windows when stride is smal
 ![](./img/wk03_conv_sliding_windows.png)  
 _It is because of the 2x2 max pooling layer so that it is equivelant to have a stride of 2 for the sliding windows._  
 ![](./img/wk03_conv_sliding_windows2.png)  
-* bounding box predictions 
+* bounding box predictions (use YOLO algorithm)  
+![](./img/wk03_bounding_box.png) 
+![](./img/wk03_bounding_box2.png)
+* intersection over union  
+![](./img/wk03_IoU.png)  
+__intersection / union__
 
 
