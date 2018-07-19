@@ -34,11 +34,38 @@ _the computational cost is high due to the number of windows when stride is smal
 ![](./img/wk03_conv_sliding_windows.png)  
 _It is because of the 2x2 max pooling layer so that it is equivelant to have a stride of 2 for the sliding windows._  
 ![](./img/wk03_conv_sliding_windows2.png)  
-* bounding box predictions (use YOLO algorithm)  
+
+### 4. bounding box predictions  
+* use a basic YOLO algorithm
 ![](./img/wk03_bounding_box.png) 
 ![](./img/wk03_bounding_box2.png)
 * intersection over union  
 ![](./img/wk03_IoU.png)  
 __intersection / union__
+* non-max suppresion
+	* it makes sure 1 object is only detected once. 
+	![](./img/wk03_multi_detection.png)  
+	* method for suppression
+		1. find the highest probability rectangular detection. 
+		2. find other detections with high IoU and ignore them. 
+		3. repeat 1 & 2. 
+		![](./img/wk03_suppression.png)  
+		![](./img/wk03_suppression2.png)  
+* anchor boxes
+	* issue: each grid cell can only detect 1 object
+	* anchor boxes allow us to produce multiple prediction boxes in one grid cell. 
+	![](./img/wk03_anchor_box.png) 
+	![](./img/wk03_anchor_box2.png) 
+	![](./img/wk03_anchor_box3.png)   
+	* though this particular examples doesn't do well on a) 3 objects in a cell & b) multiple objects are in the shape of only 1 anchor box. 
+* how to choose anchor boxes
+	* hand-pick 
+	* use K-means algorithms to groups objects shapes you tend to get
+
+### 5. YOLO Algorithm (all-in-one)
+
+
+
+		
 
 
