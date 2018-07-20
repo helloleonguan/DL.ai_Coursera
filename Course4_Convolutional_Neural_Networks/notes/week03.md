@@ -63,6 +63,19 @@ __intersection / union__
 	* use K-means algorithms to groups objects shapes you tend to get
 
 ### 5. YOLO Algorithm (all-in-one)
+* Training 
+![](./img/wk03_YOLO.png)  
+* Prediction
+![](./img/wk03_YOLO2.png)
+* Non-max Supression
+![](./img/wk03_YOLO3.png)  
+
+### 6. Region Proposals
+* pick a few regions (meaningful) that would make sense to run CNN on. 
+* run the segmentation algorithms to produce blobs. 
+![](./img/wk03_region.png)  
+* evolving ideas:
+![](./img/wk03_region2.png) 
 
 
 
