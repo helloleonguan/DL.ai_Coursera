@@ -77,6 +77,9 @@ __intersection / union__
 * evolving ideas:
 ![](./img/wk03_region2.png) 
 
+### 7. YOLO Research Papers
+* [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640)  
+* [YOLO9000: Better, Faster, Stronger](https://arxiv.org/abs/1612.08242)  
 
 
 		
