@@ -6,7 +6,7 @@
 ### 1. Face Recognition 
 * face verification vs. face recognition
 ![](./img/wk04_face_verification_and_recognition.png)  
-* __One-shot Learning__: learning from 1 person's image/face. 
+* __One-shot Learning__: predicting from 1 person's image/face. 
 ![](./img/wk04_one_shot.png) 
 * challenges: 
 	* a) training set is extremely small
@@ -15,3 +15,24 @@
 ![](./img/wk04_similarity_function.png) 
 
 ### 2. Siamese Network 
+* feed both pictures to the same neural network and produce the final "feature vector" (i.e. the encoding of the input image)  
+![](./img/wk04_siamese_network.png)  
+* training:  
+![](./img/wk04_siamese_network2.png) 
+* triplet loss function: 
+	* you will need 3 images: anchor, positive, negative  
+	![](./img/wk04_triplet_loss.png) 
+	* definition of triplet loss: 
+	![](./img/wk04_triplet_loss2.png)  
+* choosing the triplets 
+![](./img/wk04_triplet_loss3.png)  
+
+### 3. Face Verification and Binary Classification
+* uses siamese netwrok on 2 images (i.e. pairs) and add a logitsic unit at the end to predict 0/1. 
+![](./img/wk04_sim_bin_classification.png)  
+![](./img/wk04_sim_bin_classification2.png)  
+* pre-compute the encodings of images in the database for prediction 
+
+### 4. Neural Network Transfer 
+
+	
