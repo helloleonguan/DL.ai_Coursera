@@ -33,6 +33,34 @@
 ![](./img/wk04_sim_bin_classification2.png)  
 * pre-compute the encodings of images in the database for prediction 
 
-### 4. Neural Network Transfer 
+### 4. What are deep ConvNets learning? 
+* as the neural network goes deeper, neurons tend to learn more complex patterns. 
+![](./img/wk04_visualizing_learning.png)  
+![](./img/wk04_visualizing_learning2.png)  
 
-	
+### 5. Neural Style Transfer 
+* examples:  
+![](./img/wk04_neural_style.png) 
+[A neural Algorithm of Artistic Style](./A neural_Algorithm_of_Artistic_Style.pdf)  
+* __cost function__  
+![](./img/wk04_style_transfer_cost.png) 
+	* content cost function  
+	![](./img/wk04_style_transfer_content_cost.png)  
+	_note that `l` is chosen to be neither too small nor too big._
+	* style cost function  
+	![](./img/wk04_style_transfer_style_cost.png) 
+	![](./img/wk04_style_transfer_style_cost2.png)
+	_patterns across different channels_
+	![](./img/wk04_style_transfer_style_cost3.png)  
+	_go from 1 layer to multiple layers_
+	![](./img/wk04_style_transfer_style_cost4.png)  
+	_gram matrix_
+* __learning__  
+![](./img/wk04_style_transfer_learning.png)  
+
+### 6. 1D & 3D Generalizations
+* 1D generalization
+![](./img/wk04_1D_generalization.png)  
+* 3D generalization  
+![](./img/wk04_3D_generalization.png)  
+
