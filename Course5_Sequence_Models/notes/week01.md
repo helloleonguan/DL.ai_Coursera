@@ -30,3 +30,39 @@ _W & b parameters are shared in the RNN across different layers._
 ![](./img/wk01_back_prop.png)  
 * loss function is similar to binary classification for logistic regression: cross-entropy loss. 
 
+### 4. Different RNN Architectures 
+* the reason why we need different types of RNNs due to the fact that Tx might not be equal to Ty. 
+* __different types of RNN__
+	* many-to-many (Tx = Ty)  
+	![](./img/wk01_many_to_many.png)  
+	* many-to-many (Tx != Ty)  
+	![](./img/wk01_many_to_many2.png)  
+	* many-to-one  
+	![](./img/wk01_many_to_one.png)  
+	* one-to-many  
+	![](./img/wk01_one_to_many.png)  
+	* one-to-one 
+	![](./img/wk01_one_to_one.png)  
+* summary of RNN types 
+![](./img/wk01_RNN_types.png)  
+
+### 5. Language Model and Sequence Generation 
+* speech recognition: find the probability of that sentence out there.  
+![](./img/wk01_speech_recognition.png)  
+* Modelling an RNN
+![](./img/wk01_language_model.png)  
+![](./img/wk01_language_model2.png)  
+
+### 6. Sampling Novel Sequences 
+* sampling from y_hat prediction distributions and feeding it to the next node in the sequence. 
+![](./img/wk01_sampling.png)  
+* you could also build a character-level model  
+![](./img/wk01_sampling2.png)  
+_adv: handle Unknown words; disavd: much longer sequences, computational expensive, unable to capture sentence semantics._ 
+* examples of sequence generation 
+![](./img/wk01_sequence_generation.png)  
+
+### 7. Vanishing Gradients with RNNs 
+* challenge: language could potentially have long-term dependencies but RNN are not good at capturing this relation.  
+![](./img/wk01_vanishing_gradients.png)  
+_exploding gradients is handled by gradient clipping (i.e. rescaling some layers' gradients)._  
