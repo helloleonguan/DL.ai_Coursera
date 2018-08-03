@@ -66,3 +66,7 @@ _adv: handle Unknown words; disavd: much longer sequences, computational expensi
 * challenge: language could potentially have long-term dependencies but RNN are not good at capturing this relation.  
 ![](./img/wk01_vanishing_gradients.png)  
 _exploding gradients is handled by gradient clipping (i.e. rescaling some layers' gradients)._  
+
+### 8. Gated Recurrent Unit (GRU) 
+* it helps a lot to the vanishing gradient problem and captures long-term relations better. 
+![](./img/wk01_RNN_unit.png)  
