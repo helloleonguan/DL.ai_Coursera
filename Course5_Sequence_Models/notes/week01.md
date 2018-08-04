@@ -70,3 +70,30 @@ _exploding gradients is handled by gradient clipping (i.e. rescaling some layers
 ### 8. Gated Recurrent Unit (GRU) 
 * it helps a lot to the vanishing gradient problem and captures long-term relations better. 
 ![](./img/wk01_RNN_unit.png)  
+* simplified GRU  
+![](./img/wk01_GRU.png)  
+_Note: a) intuitively a bit is used to memorised some feature for the long run, so no vanishing gradients concern. b) variables in the red can ve vectors, which means potentially one for each layer. c) gemma u means update unit. d) purple ares match._ 
+* Full GRU  
+![](./img/wk01_GRU2.png)  
+_Note: new variable gemma r is used to measure the relevance between c^t-1  and c^t._  
+
+### 9. Long Short Term Momery (LSTM)  
+* GRU vs. LSTM  
+![](./img/wk01_LSTM.png)  
+* LSTM diagrams  
+![](./img/wk01_LSTM2.png)  
+* LSTM is probably the default. 
+
+### 10. Bidirectional RNN (BRNN)  
+* forward-directional only RNN cannot gain info from the future (later in the sequence). 
+![](./img/wk01_forward_only.png)  
+* BRNN 
+![](./img/wk01_BRNN.png)  
+* __disadv__: you will need the entire sequence of data to make predictions. 
+
+### 11. Deep RNN 
+* introduce the idea of layers. Usually not very deep in terms of layers, but can have multiple horizontally-independent layers.    
+![](./img/wk01_deep_RNN.png)  
+
+
+
