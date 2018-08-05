@@ -75,7 +75,8 @@ _exploding gradients is handled by gradient clipping (i.e. rescaling some layers
 _Note: a) intuitively a bit is used to memorised some feature for the long run, so no vanishing gradients concern. b) variables in the red can ve vectors, which means potentially one for each layer. c) gemma u means update unit. d) purple ares match._ 
 * Full GRU  
 ![](./img/wk01_GRU2.png)  
-_Note: new variable gemma r is used to measure the relevance between c^t-1  and c^t._  
+_Note: new variable gemma r is used to measure the relevance between c^t-1  and c^t._ 
+* __The dimensions of the gemma variables are the same as the number of activation units.__  
 
 ### 9. Long Short Term Momery (LSTM)  
 * GRU vs. LSTM  
@@ -94,6 +95,5 @@ _Note: new variable gemma r is used to measure the relevance between c^t-1  and 
 ### 11. Deep RNN 
 * introduce the idea of layers. Usually not very deep in terms of layers, but can have multiple horizontally-independent layers.    
 ![](./img/wk01_deep_RNN.png)  
-
 
 
