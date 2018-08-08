@@ -13,7 +13,7 @@ _disadv: treats each word as a thing onto itself and it doesn't allow algorithm 
 * visualizing feature vector on lower dimensions  
 ![](./img/wk02_vis_feature_vector.png)  
 
-### 2. Using word embeddings 
+### 2. Word embeddings 
 * name entity recognition  
 ![](./img/wk02_name_entity.png)  
 * transfer learning for word embeddings 
@@ -21,3 +21,13 @@ _disadv: treats each word as a thing onto itself and it doesn't allow algorithm 
 * related to face encoding  
 ![](./img/wk02_face_encoding.png)  
 _word embedding is mostly for a fixed set of words._  
+* word embeddings can help figure out analogies as follows (i.e. analogy reasoning)  
+![](./img/wk02_analogy.png)  
+![](./img/wk02_analogy2.png)  
+_note that sim calculation should be performed on the original multi-dimensional space._  
+* common similarity functions 
+![](./img/wk02_sim_function.png)  
+* embedding matrix 
+![](./img/wk02_embedding_matrix.png)  
+
+### 3. Learning Word Embeddings 
