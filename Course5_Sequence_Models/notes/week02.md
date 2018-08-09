@@ -31,3 +31,47 @@ _note that sim calculation should be performed on the original multi-dimensional
 ![](./img/wk02_embedding_matrix.png)  
 
 ### 3. Learning Word Embeddings 
+* __neural language model: predicting missing words.__ 
+![](./img/wk02_NL_model.png)  
+![](./img/wk02_NL_model2.png)  
+_If you want to build a language model then using last 4 words as context is a good approach. If you want to learn the word embeddings, all contexts suffice._  
+* __Word2Vec: constructing context/target pairs within a window for supervised learning.__  
+![](./img/wk02_word2vec.png)  
+![](./img/wk02_word2vec2.png)  
+_disadv: computational expensive when calculating the probability of p(t|c) - the softmax._  
+![](./img/wk02_word2vec3.png)  
+_when sampling context words, normally use a distribution with heuristics to avoid frequently sampling stopwords._  
+* __Negative Sampling: given a pair of words, determine whether this is a pair of context-target (associating) pair as a supervised learning task.__ 
+![](./img/wk02_negative_sampling.png)    
+	* generating training examples:  
+	* a) positive examples: pick a context word and then a target word within some range.
+	* b) negative examples: pick the same context word and randomly pick words from the dictionary.  
+![](./img/wk02_negative_sampling_model.png)  
+* sampling distribution  
+![](./img/wk02_sampling_distribution.png)  
+_sampling distribution is between uniform and frequency._  
+* __GloVe word vectors (global vectors for word representation): couting the number of time word t appears within the context of word c.__  
+![](./img/wk02_glove.png)  
+_note that depending on the definition of the context, X matrix might be symmetrical diagonally._  
+![](./img/wk02_glove2.png)  
+_the weighting term function has the following functionalities: a) eliminating 0-count terms, b) giving slightly less weights to stopwords pairs, c) moderating less frequent word pairs._
+* axis might not be easily human-interpretable and might not be orthogonal.  
+![](./img/wk02_axis.png)  
+
+### 4. Sentiment Classification 
+* classifying the emotion of a piece of text.  
+![](./img/wk02_sentiment_classification.png)
+* challenge: might not have a huge labelled training set. 
+* __Simple Sentiment Classification Model__  
+![](./img/wk02_simple_sentiment_classification_model.png)  
+_disadv: the average function might turn bad reviews into good ones (indicated at the left-bottom corner)._ 
+* __RNN for sentiment classification__  
+![](./img/wk02_RNN_for_sentiment_classification.png)  
+
+### 5. Debiasing Word Embeddings
+* aim: free of all forms of bias (e.g. gender bias).  
+![](./img/wk02_bias.png)  
+* how to address bias?  
+![](./img/wk02_address_bias.png)  
+
+
