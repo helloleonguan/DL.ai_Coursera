@@ -57,6 +57,7 @@ _note that depending on the definition of the context, X matrix might be symmetr
 _the weighting term function has the following functionalities: a) eliminating 0-count terms, b) giving slightly less weights to stopwords pairs, c) moderating less frequent word pairs._
 * axis might not be easily human-interpretable and might not be orthogonal.  
 ![](./img/wk02_axis.png)  
+* randomly initialise those parameters (theta, e) in the learning algorithms. 
 
 ### 4. Sentiment Classification 
 * classifying the emotion of a piece of text.  
