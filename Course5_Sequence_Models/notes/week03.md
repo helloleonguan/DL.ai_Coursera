@@ -50,4 +50,21 @@ _if the beam width == 1, then it will just be greedy search._
 ![](./img/wk03_long_seq.png) 
 * introducing attention weights alpha. This allows for a weighted window to be considered for each translation step:    
 ![](./img/wk03_attention_model.png)  
-* 
+![](./img/wk03_attention_model2.png)  
+* how to compute the attention weights? 
+![](./img/wk03_attention_weights.png)  
+* examples using attention model  
+![](./img/wk03_attention_examples.png)  
+
+### 7. Speech Recognition 
+* the speech recoginition problem with its initial solution 
+![](./img/wk03_speech_rec_problem.png)  
+![](./img/wk03_attention_for_speech_recognition.png)  
+_The X is a series of audio clips._ 
+* CTC cost for speech recognition  
+![](./img/wk03_CTC_cost.png)  
+
+### 8. Trigger Word Detection 
+* in order to even out the transing set Y distribution, we can introduce slightly more 1s after the trigger words being said. 
+![](./img/wk03_trigger_words.png)  
+
