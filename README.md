@@ -11,7 +11,10 @@ However, common practices, notes and thoughts regarding the assignments will be 
 2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization - [Course 2 certificate](https://github.com/helloleonguan/DL.ai_Coursera/blob/master/Course2_Improving_Deep_Neural_Networks/Course_2_certificate.pdf) 
 3. Structuring Machine Learning Projects - [Course 3 certificate](https://github.com/helloleonguan/DL.ai_Coursera/blob/master/Course3_Structuring_Machine_Learning_Projects/Course_3_certificate.pdf) 
 4. Convolutional Neural Networks - [Course 4 certificate](https://github.com/helloleonguan/DL.ai_Coursera/blob/master/Course4_Convolutional_Neural_Networks/Course_4_certificate.pdf) 
-5. Sequence Models - [Course 5 certificate (not completed)]() 
+5. Sequence Models - [Course 5 certificate](https://github.com/helloleonguan/DL.ai_Coursera/blob/master/Course5_Sequence_Models/Course_5_certificate.pdf)  
+
+### Specialisation Certificate 
+[Deep Learning Specialization](https://github.com/helloleonguan/DL.ai_Coursera/blob/master/DL_certificate.pdf)  
 
 #### Details of the Specialisation:  
 * [General Info about the Specialisation](https://www.coursera.org/specializations/deep-learning)
