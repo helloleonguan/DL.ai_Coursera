@@ -18,3 +18,6 @@ However, common practices, notes and thoughts regarding the assignments will be 
 
 #### Details of the Specialisation:  
 * [General Info about the Specialisation](https://www.coursera.org/specializations/deep-learning)
+
+### Cheatsheets 
+* [ Deep Learning ](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning)  
